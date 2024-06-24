@@ -9,8 +9,8 @@ router.get("/nombres/:id", obtenerId)
 
 router.post("/nombres", insertar)
 
-router.put("/nombres/:id_saludo", actualizar)
+router.put("/nombres/:id", actualizar)
 
-router.delete("/nombres/:id_saludo", eliminar)
+router.delete("/nombres/:id", eliminar)
 
 module.exports = router

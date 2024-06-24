@@ -1,8 +1,3 @@
-
-const express = require("express");
-
-const basedatos= express();
-
 const mysql2 = require("mysql2/promise")
 
 const nuevaConexion= async()=>{

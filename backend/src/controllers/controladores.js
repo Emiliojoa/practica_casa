@@ -39,10 +39,9 @@ async function actualizar(req, res){
 
     const conexion = await nuevaConexion();
 
-    const id= req.params
+    const id= req.params.id
 
     const {nom} = req.body
-    console.log(id)
     await conexion.query("UPDATE holi SET nom =? WHERE id_saludo =?",[nom,id]);
     res.send("se actualizo tu maldito saludo")
     conexion.end();

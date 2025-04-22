@@ -6,7 +6,8 @@ const nuevaConexion= async()=>{
         host: "localhost",
         user: "root",
         database: "basedatos"
-    })
+    })//mirando como conectar a una base de datos
+    
     return conexion;
 }
 module.exports={

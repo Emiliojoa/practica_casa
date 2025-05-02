@@ -10,6 +10,6 @@ app.use(require("./src/router/router"));
 
 app.use(express.json());
 
-app.listen(4001, ()=>{ 
+app.listen(4000, ()=>{ 
     console.log("tamo redy");
 })

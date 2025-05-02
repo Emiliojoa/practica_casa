@@ -1,4 +1,4 @@
-const mysql2 = require("mysql2/promise")
+const mysql2 = require("mysql2/promise")// migrar todo a impor y export
 
 const nuevaConexion= async()=>{
     
